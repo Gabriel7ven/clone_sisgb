@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>particles.js</title>
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <title>SISGB - Sistema de Gestão de Ativos do BDGD</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/particles.css">
   <link rel="stylesheet" href="styles/options.css">
@@ -18,26 +19,29 @@
 
 <div id="particles-js"></div>
 
+<div class="container">
 <div class="welcome">
   <div class="presentation">
     <img src="img/logo_progeo_large.png " alt="Logo da Progeo" class="logo">
-    <p>Bem-vindo à <span>progeo</span>
+    <p>Bem-vindo à <span>progeo!</span>
     <p>Sistema de Gestão de Ativos Para Auxílio ao BDGD!</p>
   </div>
   <p class="copyright">© 2025 "PROGEO". Todos os direitos reservados</p>
 </div>
 
 <div class="options">
-  <ul id="options">
-    <li>cadastro e geoprocessamento</li>
-    <li><a href="login.php" target="_blank">login</a></li>
-    <li>solicitação de acesso</li>
-    <li>passivo de obras ofm</li>
-    <li>gerar demanda</li>
-    <li>consultar demanda</li>
-    <li>nvs</li>
-  </ul>
+  <div class="options-panel">
+    <span class="header-options">cadastro e geoprocessamento</span>
+    <a href="login.php" target="_blank">login</a>
+    <a href="" target="">solicitação de acesso</a>
+    <a href="" target="">passivo de obras ofm</a>
+    <a href="" target="">gerar demanda</a>
+    <a href="" target="">consultar demanda</a>
+    <a href="" target="">nvs</a>
+  </div>
 </div>
+</div>
+
 
 
 
