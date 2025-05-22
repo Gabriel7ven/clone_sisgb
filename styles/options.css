@@ -113,6 +113,8 @@ a {
     font-size: 12px;
     text-decoration: none;
     border: 2px solid #3F51B5;
+    /* animation: 1s normal infinite pulser; */
+    /* transition: all 0.3s ease; */
 }
 
 a:hover {
@@ -120,4 +122,14 @@ a:hover {
      background-color: #E0E0E0;
      border: 2px solid #3F51B5;
      transition: all 0.3s ease;
+}
+
+
+@keyframes pulser {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.5);
+    }
 }
