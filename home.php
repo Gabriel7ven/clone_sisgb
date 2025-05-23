@@ -1,11 +1,10 @@
 <?php include 'includes/header.php'; ?>
 <?php include 'includes/menu.php'; ?>
-
 <div class="actions">
     <p id="header-title">sisgb - home page</p>
     <div class="btn-container">
         <button type="button" class="btn btn-outline-danger btn-sm"><i class="fa-solid fa-check fa-sm"></i>Produtividade</button>
-        <button type="button" class="btn btn-outline-primary btn-sm"><i class="fa-solid fa-apple-whole fa-sm"></i></button>
+        <a href="logout.php"><button type="button" class="btn btn-outline-primary btn-sm"><i class="fa-solid fa-apple-whole fa-sm"></i></button></a>
         <button type="button" class="btn btn-outline-warning btn-sm"><i class="fa-solid fa-right-from-bracket fa-sm"></i></button>
         <button type="button" class="btn btn-outline-success btn-sm"><i class="fa-solid fa-user fa-sm"></i></button>
         <button type="button" class="btn btn-outline-warning btn-sm"><i class="fa-solid fa-envelope fa-sm"></i></button>

@@ -20,14 +20,14 @@
             </div>
             <div class="form-panel">
                  <p>login</p>
-                 <form action="process_login.php" method="POST">
+                 <form action="authenticate.php" method="POST">
                     <div class="form-group">
                         <input type="text" class="form-control" name="username" placeholder="Usuário">
                     </div>
                     <div class="form-group">
                         <input type="password" class="form-control" name="password" placeholder="Senha*">
                     </div>
-                    <p class="forget-pwd">Esqueceu a senha?</p>
+                    <p class="forget-pwd" style="">Esqueceu a senha?</p>
                     <button type="submit" class="btn btn-outline-primary">Entrar</button>
                     <button type="submit" class="btn btn-outline-secondary">Voltar</button>
                 </form>
