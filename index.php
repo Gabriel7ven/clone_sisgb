@@ -32,7 +32,7 @@
 <div class="options">
   <div class="options-panel">
     <span class="header-options">cadastro e geoprocessamento</span>
-    <a href="login.php" target="_blank">login</a>
+    <a class="login" href="login.php" target="_blank">login</a>
     <a href="" target="">solicitação de acesso</a>
     <a href="" target="">passivo de obras ofm</a>
     <a href="" target="">gerar demanda</a>

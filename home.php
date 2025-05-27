@@ -15,7 +15,7 @@ if(!isset($_SESSION['user_id'])) {
     <div class="btn-container">
         <button type="button" class="btn btn-outline-danger btn-sm"><i class="fa-solid fa-check fa-sm"></i>Produtividade</button>
         <button type="button" class="btn btn-outline-primary btn-sm"><i class="fa-solid fa-apple-whole fa-sm"></i></button></a>
-        <a href="logout.php"><button type="button" class="btn btn-outline-warning btn-sm"><i class="fa-solid fa-right-from-bracket fa-sm"></i></button></a>
+        <a href="logout.php"><button type="button" class="btn btn-outline-warning btn-sm logout"><i class="fa-solid fa-right-from-bracket fa-sm"></i></button></a>
         <button type="button" class="btn btn-outline-success btn-sm"><i class="fa-solid fa-user fa-sm"></i></button>
         <button type="button" class="btn btn-outline-warning btn-sm"><i class="fa-solid fa-envelope fa-sm"></i></button>
         

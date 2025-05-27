@@ -125,11 +125,21 @@ a:hover {
 }
 
 
-@keyframes pulser {
+.login {
+    box-shadow: 0 0 0 0 rgba(6, 1, 247, 0.7);
+    transform: scale(1);
+    animation: pulse 1s infinite;
+}
+@keyframes pulse {
     0% {
-        transform: scale(1);
+        box-shadow: 0 0 0 0 rgb(0,0,0, 0.7);
     }
+
+    70% {
+        box-shadow: 0 0 0 10px rgb(0,0,0, 0);
+    }
+
     100% {
-        transform: scale(1.5);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
 }

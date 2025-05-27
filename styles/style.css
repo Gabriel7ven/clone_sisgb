@@ -116,6 +116,11 @@ nav ul li:hover .dropdown {
     margin-right: 5px;
 }
 
+.logout {
+    box-shadow: 0 0 0 0 rgb(215, 235, 3);
+    transform: scale(1);
+    animation: pulse 1s infinite;
+}
 #header-title {
     font-family: Verdana, Tahoma, sans-serif;
     font-weight: 700;
@@ -221,3 +226,19 @@ nav ul li:hover .dropdown {
     margin: auto;
 } */
 
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgb(0,0,0, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgb(215, 235, 3, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}
